@@ -1,0 +1,778 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 603
+  horizontalOffset: -241
+  verticalOffset: -152
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 603
+nodes:
+  - shape:
+      type: HTML
+      content: "<div class=\"c-html\" style=\"background-color: #3871e0;\"><div
+        class=\"c-container\"><div class=\"c-image-primary\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_Black_87_hlfiaq.png);\"></div><div class=\"c-image-original\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_rluunv.png);\"></div><div class=\"c-text\"><div
+        class=\"c-title\">Compute Engine (Private)</div><div
+        class=\"c-short-description\">Running virtual machines on Google's
+        infrastructure</div><div class=\"c-bottom\"><div class=\"c-hr
+        p-mb-1\"></div><div class=\"c-title-bottom\">Google Cloud
+        Platform</div></div></div></div></div>"
+    id: Google Compute Engineif1y8
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Compute Engine
+        shortDescription: Running virtual machines on Google's infrastructure
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Compute Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Compute Engine
+      editableName: Compute Engine (Private)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+        - name: Connection Receiver
+          type: Storage
+          portsIn:
+            put: connection
+            get: get
+          portsOut:
+            stored: connection
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+        - type: Storage
+          status: Idle
+          name: Connection Receiver
+      name: Google Compute Engine
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine__044448_c5wixz.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png
+      color: "#3871e0"
+      controlText: Compute Engine
+      selectedDynamicsView: 0
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 300
+    height: 100
+    offsetX: 277
+    offsetY: 270
+    zIndex: 0
+    inEdges:
+      - Orthogonal ConnectordS1ZA
+    outEdges:
+      - Straight ConnectorWl3Ci
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_nat_Black_87_wncpex.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_nat_ifagfi.png);"></div><div
+        class="c-text"><div class="c-title">Cloud NAT</div><div
+        class="c-short-description">Providing outbound internet access for
+        instances without public IP addresses</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud NATGPiyX
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud NAT
+        shortDescription: Providing outbound internet access for instances without
+          public IP addresses
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud NAT
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud NAT
+      editableName: Cloud NAT
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud NAT
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_nat_ifagfi.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_nat__044448_da7bla.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_nat_Black_87_wncpex.png
+      color: "#3871e0"
+      controlText: Cloud NAT
+      selectedDynamicsView: 0
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 300
+    height: 100
+    offsetX: 277
+    offsetY: 118
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorWl3Ci
+      - Dashed Straight Nondirectional ConnectorkbNKu
+    outEdges:
+      - Dashed Straight Nondirectional ConnectorJ3X6d
+      - Straight ConnectorWl3CiosN5a
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/network_security_Black_87_igalaq.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/network_security_b7flmv.png);"></div><div
+        class="c-text"><div class="c-title">Network Security</div><div
+        class="c-short-description">TLS inspection, with a rules-based Secure
+        Web Proxy</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Network SecuritySZgLb
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Network Security
+        shortDescription: TLS inspection, with a rules-based Secure Web Proxy
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Network Security
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Network Security
+      editableName: Network Security
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Network Security
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/network_security_b7flmv.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/network_security__044448_jeiuya.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/network_security_Black_87_igalaq.png
+      color: "#3871e0"
+      controlText: Network Security
+      selectedDynamicsView: 0
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 300
+    height: 100
+    offsetX: 627
+    offsetY: 164
+    zIndex: 3
+    inEdges:
+      - Dashed Straight Nondirectional ConnectorJ3X6d
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_router_Black_87_kplyho.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_router_wwjbzm.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Cloud
+        Router</div></div><hr class="c-underrule" style="background-color:
+        #3871e0"></div>'
+    id: Google Cloud RouteroBQ6b
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Router
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Router
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Router
+      editableName: Cloud Router
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Router
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_router_wwjbzm.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_router__044448_d2egp7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_router_Black_87_kplyho.png
+      color: "#3871e0"
+      controlText: Cloud Router
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 122
+    height: 124
+    offsetX: 49
+    offsetY: 146
+    zIndex: 5
+    outEdges:
+      - Dashed Straight Nondirectional ConnectorkbNKu
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_Black_87_eis0nj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_ja4mkg.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Identity-Aware Proxy</div></div><hr
+        class="c-underrule" style="background-color: #3871e0"></div>'
+    id: Google Identity-Aware ProxyahJKO
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Identity-Aware Proxy
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Identity-Aware Proxy
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Identity-Aware Proxy
+      editableName: Identity-Aware Proxy
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Identity-Aware Proxy
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_ja4mkg.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy__044448_k4yiml.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_Black_87_eis0nj.png
+      color: "#3871e0"
+      controlText: Identity-Aware Proxy
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      latitude: null
+      longitude: null
+    width: 188
+    height: 124
+    offsetX: -8
+    offsetY: 324
+    zIndex: 7
+    inEdges:
+      - Orthogonal ConnectorRWc4T
+    outEdges:
+      - Orthogonal ConnectordS1ZA
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #616161; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_Black_87_a2x4yt.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_mlfqgr.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Engineers</div></div><hr class="c-underrule"
+        style="background-color: #616161"></div>'
+    id: EngineersduTJP
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Engineers
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Engineers
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Engineers
+      editableName: Engineers
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Work Item Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+        - name: Request Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+        - name: Response Receiver
+          type: Storage
+          portsIn:
+            put: response
+            get: latest
+          portsOut:
+            stored: response
+        - name: Deployer
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Work Item Generator
+          AverageTimeBetweenWorkItemCreations: 1
+        - type: Generator
+          status: Idle
+          name: Request Generator
+          AverageTimeBetweenRequests: 1
+        - type: Storage
+          status: Idle
+          name: Response Receiver
+        - type: Processor
+          status: Idle
+          name: Deployer
+          AverageDeploymentDuration: 1
+      name: Engineers
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_mlfqgr.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer__044448_mcw8wl.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_Black_87_a2x4yt.png
+      color: "#616161"
+      controlText: Engineers
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: -193
+    offsetY: 290
+    zIndex: 8
+    outEdges:
+      - Orthogonal ConnectorRWc4T
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #433F3E; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/Globe_Black_87_chhpit.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Globe_fl4bbb.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Internet</div></div><hr class="c-underrule"
+        style="background-color: #433F3E"></div>'
+    id: InternetoMag8
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Internet
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Internet
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Internet
+      editableName: Internet
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Internet
+      category: 6
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055369/sds_logos/Globe_fl4bbb.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/Globe__044448_wvf1fr.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677055370/sds_logos/Globe_Black_87_chhpit.png
+      controlText: Internet
+      color: "#433F3E"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 277
+    offsetY: -30
+    zIndex: 11
+    inEdges:
+      - Straight ConnectorWl3CiosN5a
+connectors:
+  - id: Straight ConnectorWl3Ci
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 277
+      y: 220
+    targetPoint:
+      x: 277
+      y: 168
+    sourceID: Google Compute Engineif1y8
+    targetID: Google Cloud NATGPiyX
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Dashed Straight Nondirectional ConnectorJ3X6d
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 427
+      y: 137.71
+    targetPoint:
+      x: 477
+      y: 144.29
+    sourceID: Google Cloud NATGPiyX
+    targetID: Google Network SecuritySZgLb
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight Nondirectional ConnectorkbNKu
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 110
+      y: 138.51
+    targetPoint:
+      x: 127
+      y: 136.42
+    sourceID: Google Cloud RouteroBQ6b
+    targetID: Google Cloud NATGPiyX
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Orthogonal ConnectorRWc4T
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: -143
+      y: 290
+    targetPoint:
+      x: -102
+      y: 324
+    sourceID: EngineersduTJP
+    targetID: Google Identity-Aware ProxyahJKO
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 9
+  - id: Orthogonal ConnectordS1ZA
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 86
+      y: 324
+    targetPoint:
+      x: 127
+      y: 270
+    sourceID: Google Identity-Aware ProxyahJKO
+    targetID: Google Compute Engineif1y8
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Straight ConnectorWl3CiosN5a
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 277
+      y: 68
+    targetPoint:
+      x: 277
+      y: 32
+    sourceID: Google Cloud NATGPiyX
+    targetID: InternetoMag8
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+selectedItems:
+  width: 0
+  height: 0
